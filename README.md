@@ -1,2 +1,2 @@
 # crud
-An API using Golang and Protocol Buffers
+A CRUD API using Golang and Protocol Buffers
