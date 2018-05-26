@@ -1,0 +1,13 @@
+syntax="proto3";
+package model;
+
+import "google/protobuf/timestamp.proto";
+
+message CallRecord{
+  int32 id=1;
+  google.protobuf.Timestamp StartTime=2;
+  google.protobuf.Timestamp EndTime=3;
+  google.protobuf.Timestamp Duration=4;
+  string callerLineIdentity=5;
+  string NonChargedParty=6;
+}
